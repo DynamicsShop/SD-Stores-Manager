@@ -1,5 +1,155 @@
 ## SD Stores Manager Releases
 
+### 3.0.0
+
+#### Enhancements
+
+- BCv20 App - The v2.1.0 C/AL release of SD Stores Manager was converted from C/AL to AL extensions. 
+
+- BCv20 App - A change was made to allow users search on the SD Stores Manager Role Centre Activities in the Tell Me. 
+
+- BCv20 App - The Assisted Setup action and functionality to import the Assisted Setup was added. 
+
+- BCv20 App - The usage category property was added to the pages for the Tell Me search. 
+
+- BCv20 App - Permission sets were created for the product. 
+
+- BCv20 App - The size of standard Dynamics 365 Business Central description and name fields used in the App were increased as as per the standard Dynamics 365 Business Central change. 
+
+- BCv20 App - The latest version of the ISV About page was added to the product. 
+
+- BCv20 App - The existing objects in the App were renamed to our ISV standards. 
+
+- BCv20 App - The SD Stores Manger reports with barcodes were modified to use API calls to create the barcodes. This removed the need to install barcode fonts as part of the product installation. 
+
+- BCv20 App - New fields and pages were added to the SD Stores Manager Setup card for the reworked barcode scanning functionality. 
+
+- BCv20 App - Removed the barcode prefix field and the functionality used to determine the barcode type from the code base. 
+
+- BCv20 App - Added functionality to focus the barcode field for barcode scanning. 
+
+- BCv20 App - Background barcode scanning functionality was added to the App. 
+
+- BCv20 App - The latest version of the ISV Controller was added to the App. 
+
+- BCv20 App - A new KPI page was created to display key pick information.  
+
+- BCv20 App - Four new reports were created to report on Pick Errors by Customer, Pick Errors by Item, Pick Errors by Picker, and Pick Errors by Reason Code. 
+
+- BCv20 App - A KPI FastTab was added to the SD Stores Manager Setup Card. 
+
+- BCv20 App - Changes were made to the Menu Groups in the Route Overview and a small typo was fixed on the page. 
+
+- BCv20 App - A change was made to prevent the Cancel button on Confirm Job Card to allow users cancel out of Job. Users must either complete the job or leave the job incomplete and record a shortage. 
+
+- BCv20 App - The caption and title of the Pick Shortages report was updated to differentiate it from the Shipment Shortages report. 
+
+- BCv20 App - The caption and title of the Shipment Shortages report was updated to differentiate it from the Pick Shortages report. 
+
+- BCv20 App - The Licence Expiry notification was updated to show the SD Stores Manager App name in the notification.  
+
+- BCv20 App - A duplicate action cue was removed from the SD Stores Manager Manager Role Centre. 
+
+- BCv20 App - Functionality was added to find the default bin for a substitute item and update the Job Lines and the Sales Order with the default bin. 
+
+- BCv20 App - Changes were made to the footer in the Pick Shortage Report. 
+
+- BCv20 App - The standard Sales Line page and table was extended with a new comment field that pulls through to the Pick Job Line and prints on the Pick Instruction report. 
+
+- BCv20 App - The caption on the Background Scan Setup action on the SD Stores Manger Card was changed. 
+
+- BCv20 App - On the Confirm Job Card the Auto Fill Qty. to Handle action was moved to the top most level of the page menu. 
+
+-  BCv20 App - The caption on the SD Stores Manager Sales Order Activity group was updated to fix a small typo. 
+
+- BCv20 App - The Stores GRN action was surfaced as an action cue on the Role Centres and placed in a SD Stores Manager Purchase Order Activities action group.    
+
+- BCv20 App - ToolTips were updated on the SD Stores Manager Setup Card to explain the fields on the card. 
+
+- BCv20 App - In the SD Stores Manager Setup Card certain fields were promoted to display on collapse of the FastTabs. 
+
+- BCv20 App - A small typo on the SD Stores Manager Job History List was updated. 
+
+- BCv20 App - Standard Dynamics 365 Business Central notes and link actions were removed from the SD Stores Manger pages to keep the page clean and clutter free. 
+
+- BCv20 App - The Usage Category property was updated on pages and reports to allow users search for these objects in the Tell Me. 
+
+- BCv20 App - A page was created to display all installed Simply Dynamics Apps and Subscription details for the tenant. 
+
+- BCv20 App - The ISV Licence expiry message was updated to show the App name. 
+
+- BCv20 App - A small typo was fixed on the Pick Shortage List. 
+
+- BCv20 App - The message displayed when closing a job with lines that have a shortage was updated to fix a typo. 
+
+- BCv20 App - A Generate Picks and a Route Overview action cue were added to the SD Stores Manager Role Centre. 
+
+- BCv20 App - Functionality was added when shipping a Pick Job with a 0-quantity line on the Pick Job, SD Stores Manager updates the source Sales Order and sets the Quantity to 0, Unit Price to 0, Line Discount % to 0 and the Completely Shipped flag to true. This functionality can be enabled by choosing the Close Lines on Pick Post option on the SD Stores Manager Setup. 
+
+- BCv20 App - The Product Activation page was updated to point to the new CRM URL. 
+
+- BCv20 App - Tooltips were updated to look at our new website. 
+
+- BCv20 App - Functionality was added to SD Stores Manager to allow for substitutions at Pick level/Job Line level. 
+
+- BCv20 App - ISV Licence expiry validation checks were added to the code. 
+
+- BCv20 App - A Test Codeunit was created for AppSource submission. 
+
+- BCv20 App - The product was readied for AppSource submission. 
+
+- BCv20 App - Standard notes and link actions were removed from the SD Stores Manager pages to keep these pages as streamlined and simplified as possible. 
+
+- BCv20 App - Changes were made to the About page. The latest version of the product and the AppSource URL were added to the About page. 
+
+- BCv20 App - Captions were updated on all objects for future translation requests. 
+
+- BCv20 App - Flowfields were added to the Route Overview to allow filtering of <= Workdate and >Workdate fields. 
+
+- BCv20 App - Functionality was added to allow Delivery Dockets to print off the Manifest. A new field was added to the SD Stores Manager Setup card to allow users define the Delivery Docket report to use. 
+
+- BCv20 App - Orders Past and Orders Future flowfields with filters were added to the Route Overview to view flowfield counts of sales orders for future and past dates. 
+
+- BCv20 App - KPIs were added to the Route Overview. 
+
+- Bcv20 App - Functionality was added to allow users to Defer Picks. 
+
+- BCv20 App - An Auto Assign Lot No Series field was added to the SD Stores Manager Setup card. 
+
+- BCv20 App - Functionality was added to allow for over picking. 
+
+- BCv20 App - Functionality was added to SD Stores Manager to allow for under picking. 
+
+- BCv20 App - Changes were made to specify over pick tolerances per item. 
+
+- BCv20 App - Functionality was added to log information on shortages and retain a history on the shortages. 
+
+- BCv20 App - The layout of the SD Stores Manager Manager Role Centre was reviews and minor modifications were made. 
+
+- BCv20 App - The layout of the SD Stores Manager Worker Role Centre was changed to make the logic of the workflow easier to follow. 
+
+- BCv20 App - Minor changes were made to the SD Stores Manager Reports. 
+
+- BCv20 App - An action item was removed from the SD Stores Manager Role Centre. 
+
+- BCv20 App - The Activity panels in the Role Centre were split out into individual searchable pages. 
+
+- BCv20 App - Lot Tracking was added to the Job Lines. 
+
+#### Bug Fixes
+
+- BCv20 App - On install of the App clicking no to activate licence key and was hiding all the cues in the Role Centre and displaying an error. This issue was fixed. 
+
+- BCv20 App - Fixed an issue where users could bypass the validation on the Confirm page by choosing the x to close the page. 
+
+- BCv20 App - Some field captions in the Manifest report are not displaying in full. 
+
+- BCv20 App - The Product Activation page was changed to disable Activate button unless the Product Key is filled in to avoid an error being raised when the Activate button is chosen. 
+
+- BCv20 App - A change was made to the Manifest Report to print the Shipment Date entered on the report request page on the Shipment Date in the report header. 
+
+- BCv20 App - A fix was made to the SD Stores Manager  - Pick List Report to stop the barcode image wrapping on the report. The image space for the barcode was extended. 
+
 ### 2.1.0
 
 #### Enhancements
