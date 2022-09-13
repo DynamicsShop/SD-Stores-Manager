@@ -1,5 +1,17 @@
 ## SD Stores Manager Releases
 
+### 3.0.1
+
+#### Enhancements
+
+- BCv20 App - Functionality was added to prevent workers from deferring all lines on a Job. 
+
+#### Bug Fixes
+
+- BCv20 App - An issue was fixed with posting Deferred Picks where an error was raised that there was nothing to post. Also, when shipping the job for the defer pick line the shortage quantity on the shortage line was also shipped. 
+
+- BCV20 App - The About action was missing from the SD Stores Manager Setup Card. 
+
 ### 3.0.0
 
 #### Enhancements
