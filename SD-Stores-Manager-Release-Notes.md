@@ -1,5 +1,11 @@
 ## SD Stores Manager Releases
 
+### 3.0.2
+
+#### Enhancements
+
+- BCv21 App - The Licence Message displayed on first install of SD Stores Manager was changed to prompt the user to activate a free trial and to choose Assisted Setup from the Setup Card to create demo data.
+
 ### 3.0.1
 
 #### Enhancements
