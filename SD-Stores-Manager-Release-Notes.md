@@ -1,5 +1,19 @@
 ## SD Stores Manager Releases
 
+### 3.0.3
+
+#### Enhancements
+
+- AppSource App - A change was made to limit the SD ISV Tenant Subscriptions page to display just our SD ISV AppSource Apps and not other SD PTE Apps.
+
+#### Bug Fixes
+
+- AppSource App - When selecting SD Stores Manager activity pages in the Tell Me/Search in a BCv22 environment, the activity pages were hanging.
+
+- AppSource App - An error will raise in the Assisted Setup import if non sequential enum values exist in the imported data. This was fixed.
+
+- AppSource App - A change was made to the ISV Licence Notification procedure in SD Stores Manager to fix an issue that would raise an error when the language is changed from English to another language.
+
 ### 3.0.2
 
 #### Enhancements
