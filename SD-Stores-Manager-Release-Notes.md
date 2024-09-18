@@ -1,5 +1,17 @@
 ## SD Stores Manager Releases
 
+### 3.0.4
+
+#### Enhancements
+
+- AppSource App - The standard Batch Post Sales Orders Report on the Route Overview page takes two new parameters in the InitializeRequest function. The action on the page was updated to supply the new parameters to the report.
+
+- AppSource App - A change was made to the Assisted Setup functionality.
+
+- AppSource App - The links in the About page were updated.
+
+- AppSource App - The logo in the App was updated to the new logo.
+
 ### 3.0.3
 
 #### Enhancements
