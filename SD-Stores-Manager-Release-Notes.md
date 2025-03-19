@@ -1,5 +1,11 @@
 ## SD Stores Manager Releases
 
+### 3.0.6
+
+#### Enhancements
+
+- AppSource App - A minor modification was made to the Generate Picks functionality.
+
 ### 3.0.5
 
 #### Enhancements
