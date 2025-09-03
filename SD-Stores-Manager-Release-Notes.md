@@ -1,5 +1,13 @@
 ## SD Stores Manager Releases
 
+### 3.1.1
+
+#### Enhancements
+
+- AppSource App - A link to the user guide on the DynamicsShop page was added to the About page and to the Manage Subscriptions page.
+
+- AppSource App - A minor change was made to the Product Activation page.
+
 ### 3.1.0
 
 #### Enhancements
@@ -343,4 +351,5 @@
 #### Enhancements
 
 - This was an early release of SD Stores Manager.
+
 
