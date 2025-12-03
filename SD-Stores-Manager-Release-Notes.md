@@ -153,7 +153,6 @@
 -  BCv20 App - The caption on the SD Stores Manager Sales Order Activity group was updated to fix a small typo. 
 
 - BCv20 App - The Stores GRN action was surfaced as an action cue on the Role Centres and placed in a SD Stores Manager Purchase Order Activities action group.    
-
 - BCv20 App - ToolTips were updated on the SD Stores Manager Setup Card to explain the fields on the card. 
 
 - BCv20 App - In the SD Stores Manager Setup Card certain fields were promoted to display on collapse of the FastTabs. 
@@ -225,20 +224,6 @@
 - BCv20 App - The Activity panels in the Role Centre were split out into individual searchable pages. 
 
 - BCv20 App - Lot Tracking was added to the Job Lines. 
-
-#### Bug Fixes
-
-- BCv20 App - On install of the App clicking no to activate licence key and was hiding all the cues in the Role Centre and displaying an error. This issue was fixed. 
-
-- BCv20 App - Fixed an issue where users could bypass the validation on the Confirm page by choosing the x to close the page. 
-
-- BCv20 App - Some field captions in the Manifest report are not displaying in full. 
-
-- BCv20 App - The Product Activation page was changed to disable Activate button unless the Product Key is filled in to avoid an error being raised when the Activate button is chosen. 
-
-- BCv20 App - A change was made to the Manifest Report to print the Shipment Date entered on the report request page on the Shipment Date in the report header. 
-
-- BCv20 App - A fix was made to the SD Stores Manager  - Pick List Report to stop the barcode image wrapping on the report. The image space for the barcode was extended. 
 
 ### 2.1.0
 
@@ -351,5 +336,6 @@
 #### Enhancements
 
 - This was an early release of SD Stores Manager.
+
 
 
