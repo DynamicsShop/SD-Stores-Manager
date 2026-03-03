@@ -1,5 +1,19 @@
 ## SD Stores Manager Releases
 
+### 3.2.0
+
+#### Enhancements
+
+- AppSource App - Users can now Ship a Job with a Fully Shorted Order. The Sales Order on the Job is not Posted as there is nothing to Ship on the Order. The shortages are displayed on the Shortage Reports.
+
+- AppSource App - The ability to multi line select records in the Job List was enabled for "Ship Job", "Confirm Job", "Set to Pending", and "Delete Job".
+
+- AppSource App - An event was created, OnBeforePrintInstruction in codeunit 43018003 "SDY SM Stores Operator", so a custom Pick Instruction report can be used in place of the SD Stores Manager Pick Instruction.   
+
+- AppSource App - Additional fields, Combine Shipment and Shipped, were added to the to SDY SM Manifest Filters (43018013) Report Request Page.
+
+- AppSource App - An additional filter, Completely Received = No, was added to the SD Stores Manager Purchase List. 
+
 ### 3.1.1
 
 #### Enhancements
@@ -336,6 +350,7 @@
 #### Enhancements
 
 - This was an early release of SD Stores Manager.
+
 
 
 
