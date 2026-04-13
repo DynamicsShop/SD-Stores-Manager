@@ -1,5 +1,11 @@
 ## SD Stores Manager Releases
 
+### 3.2.2
+
+#### Enhancements
+
+- AppSource App - An update was made to the event OnAfterRunReports that can be called after the Manifest & Delivery Dockets are printed from the Route Overview.
+
 ### 3.2.1
 
 #### Enhancements
