@@ -1,5 +1,17 @@
 ## SD Stores Manager Releases
 
+### 3.2.1
+
+#### Enhancements
+
+- AppSource App - The Route Priority field for Deferred Picks is now picked up from the Defer Pick Priority field on the SD Stores Manager Setup Card.
+
+- AppSource App - The standard Business Central over receipt fields were added to the GRN subpage SDY SM Purchase Order SubList (43018014, ListPart).
+
+- AppSource App - An event was created OnAfterRunReports that can be called after the Manifest & Delivery Dockets are printed from the Route Overview.
+
+- AppSource App - The notification prompting users to activate a free trial of SD Billing Engine on a fresh install has been limited to display no more than once per hour on the standard Business Central role centres.
+
 ### 3.2.0
 
 #### Enhancements
