@@ -8,7 +8,7 @@
 
 - A new event was added to the AutoLotAssignJobLine procedure in the SD Store Manager Codeunit with a var parameter SalesLine.
 
-- Add a new var parameter SalesLine was added to the OnBeforeAppendPickJobLine procedure in the SD Store Manager Codeunit.
+- Add a new var parameter SalesLine was added to the OnBeforePickJobLine procedure in the SD Store Manager Codeunit.
 
 ### 3.2.2
 
