@@ -1,5 +1,15 @@
 ## SD Stores Manager Releases
 
+### 3.2.3
+
+#### Enhancements
+
+- A new event was added to the ArchiveJob procedure in the SD Store Manager Codeunit with var parameters SM Job History Line and SM Job Line.
+
+- A new event was added to the AutoLotAssignJobLine procedure in the SD Store Manager Codeunit with a var parameter SalesLine.
+
+- Add a new var parameter SalesLine was added to the OnBeforeAppendPickJobLine procedure in the SD Store Manager Codeunit.
+
 ### 3.2.2
 
 #### Enhancements
