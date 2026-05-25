@@ -1,5 +1,11 @@
 ## SD Stores Manager Releases
 
+### 3.2.4
+
+#### Enhancements
+
+- A change was made to the to the event, OnAfterRunReports, in the Manifest Filters report to add a check to the code so if the SalesHeader DataItem has no records then the Delivery Docket report won't be called. 
+
 ### 3.2.3
 
 #### Enhancements
