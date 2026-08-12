@@ -1,5 +1,27 @@
 ## SD Stores Manager Releases
 
+### 3.3.0
+
+#### Enhancements
+
+- An event OnAfterGetNextJobFilter in codeunit 43018003 "SDY SM Stores Operator" was created to call custom code to assign Jobs on lowest priorities to workers when choosing the Request Jobs.
+
+- An event OnAfterAssignJob in codeunit 43018003 "SDY SM Stores Operator" was created to call custom code after a Job has been assigned to a worker.
+
+- Extra filters were added to the Post Sales Order Batch request page when called from the Route Overview.
+
+- Functionality was added to allow users to update the Qty to Handle on the Job Lines for substituted lines. This is controlled by a new Boolean, Disable Subst. Qty. Checks, on the Setup card.
+
+- The Pick Shortages report was reworked to improve performance.
+
+- The Shipment Shortages report was reworked to improve performance.
+
+- Tooltips on the Setup Card were updated.
+
+- The Route was added to the Shipment Shortages report.
+
+- Telemetry was added to log when Jobs are archived in SD Stores Manager.
+
 ### 3.2.4
 
 #### Enhancements
