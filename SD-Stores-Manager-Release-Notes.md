@@ -22,6 +22,8 @@
 
 - Telemetry was added to log when Jobs are archived in SD Stores Manager.
 
+- The link in the View Our Apps action on the Setup Card was updated.
+
 ### 3.2.4
 
 #### Enhancements
