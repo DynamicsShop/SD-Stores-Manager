@@ -1,5 +1,15 @@
 ## SD Stores Manager Releases
 
+### 3.3.1
+
+#### Enhancements
+
+- The performance of the Shipment Shortages Report was improved.
+
+- The Unit of Measure was added to the Pick Shortages Report.
+
+- An update was made to the message displayed on the Activation page on initial installation of the App.
+
 ### 3.3.0
 
 #### Enhancements
@@ -23,6 +33,8 @@
 - Telemetry was added to log when Jobs are archived in SD Stores Manager.
 
 - The link in the View Our Apps action on the Setup Card was updated.
+
+- The demo data in the Assisted Setup was updated.
 
 ### 3.2.4
 
