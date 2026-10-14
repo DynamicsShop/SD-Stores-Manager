@@ -1,5 +1,11 @@
 ## SD Stores Manager Releases
 
+### 3.3.2
+
+#### Enhancements
+
+- Added the OnBeforeCloseLinesOnPickPost integration event to codeunit 43018000 "SDY SM Stores Manager", allowing custom logic to be executed before lines are closed during pick posting.
+
 ### 3.3.1
 
 #### Enhancements
